@@ -1,0 +1,173 @@
+body {
+    margin: 0;
+    background-color: black;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    float: left;
+    width: 100px;
+    height: 100px;
+    padding: 10px
+}
+
+
+.starting {
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Staatliches', cursive;
+    font-style: italic;
+    font-weight: 700;
+    text-decoration: underline;
+    transition: all 1s;
+    color: white;
+
+}
+
+.starting:hover {
+    transform: scale(1.2);
+}
+
+.python {
+    background-color:lightblue;
+    border: 10px solid blue;
+    padding: 10px;
+}
+.starting-python {
+    text-align: center;
+    text-decoration: underline;
+
+}
+
+.question {
+    color: black;
+}
+
+.buffer {
+    height: 20px;
+}
+
+.javascript {
+    background-color: greenyellow;
+    border: 10px solid yellowgreen;
+    padding: 10px;
+}
+    
+
+.starting-js {
+    text-align: center;
+    text-decoration: underline;
+}
+
+
+.credits {
+    color: grey;
+    text-decoration: underline;
+}
+
+.button {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(100px, 1fr));
+    gap: 20px;
+}
+
+.btn {
+    border: 10px solid orange;
+    border-radius: 200px;
+    background-color: orange;
+    transition: all 1s;
+    font-family: 'Staatliches', cursive;
+    font-style: italic;
+    font-weight: 700;
+    font-size: 20px;
+
+}
+
+.btn:hover {
+    background-color: blue;
+    border-color: blue;
+
+}
+
+.btn2 {
+    grid-column: span 1;
+    border: 10px solid orange;
+    border-radius: 200px;
+    background-color: orange;
+    transition: all 1s;
+    font-family: 'Staatliches', cursive;
+    font-style: italic;
+    font-weight: 700;
+    font-size: 20px;
+
+}
+
+.btn2:hover {
+    background-color: blue;
+    border-color: blue;
+
+}
+
+
+.cpp {
+    padding: 10px;
+    border: 10px solid rgba(0, 162, 255, 0.664);
+    background-color: white;
+
+}
+.starting-cpp {
+    text-align: center;
+    text-decoration: underline;
+}
+
+code {
+    font-weight: 700;
+}
+
+.power {
+    background-color: limegreen;
+    border: 10px solid blue ;
+    padding: 20px;
+}
+.starting-play {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(50px, 1fr));
+    gap: 20px;
+}
+
+.playbtn {
+    grid-column: span 1;
+    font-weight: bold;
+    border: 2px solid black;
+    border-radius: 200px;
+    transition: all 1s;
+
+}
+
+.playbtn:hover {
+    transform: scale(1.1);
+}
+
+.green {
+    background-color: green;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.white {
+    background-color: white;
+}
+
+.yellow {
+    background-color: yellow;
+}
